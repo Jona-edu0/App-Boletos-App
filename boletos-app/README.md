@@ -235,7 +235,7 @@ Durante la publicación se deberá comprobar que las rutas, los recursos gráfic
 
 **Enlace público de la aplicación:** https://jona-edu0.github.io/App-Boletos-App/
 
-El flujo de GitHub Actions compila y publica esta carpeta al actualizar `main`. Antes del primer despliegue, selecciona **Settings → Pages → Build and deployment → Source → GitHub Actions** en el repositorio.
+El flujo de GitHub Actions compila y publica esta carpeta al actualizar `main`. Antes del primer despliegue, selecciona **Settings → Pages → Build and deployment → Source → GitHub Actions** en el repositorio. El resultado de cada publicación se puede consultar en la pestaña **Actions**, en el flujo **Deploy to GitHub Pages**.
 
 ## 15. Recursos de consulta
 
