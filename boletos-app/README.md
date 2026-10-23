@@ -103,11 +103,13 @@ El repositorio del proyecto se encuentra en:
 
 **GitHub:** https://github.com/Jona-edu0/App-Boletos-App
 
+**Aplicación publicada:** https://jona-edu0.github.io/App-Boletos-App/
+
 Según la estructura de carpetas utilizada actualmente, el frontend se encuentra dentro de la carpeta `boletos-app` del repositorio. Para descargar el proyecto y ejecutarlo desde una terminal, se pueden utilizar los siguientes comandos:
 
 ```bash
 git clone https://github.com/Jona-edu0/App-Boletos-App.git
-cd boletos-app/boletos-app
+cd App-Boletos-App/boletos-app
 npm install
 npm run dev
 ```
@@ -231,9 +233,9 @@ Durante la publicación se deberá comprobar que las rutas, los recursos gráfic
 
 **Repositorio:** https://github.com/Jona-edu0/App-Boletos-App
 
-**Enlace público de la aplicación:** [Agregar aquí la URL real de GitHub Pages después de verificar la publicación].
+**Enlace público de la aplicación:** https://jona-edu0.github.io/App-Boletos-App/
 
-La URL pública deberá probarse desde un navegador antes de incluirla como enlace definitivo en la entrega académica.
+El flujo de GitHub Actions compila y publica esta carpeta al actualizar `main`. En el repositorio, GitHub Pages debe tener configurado **Build and deployment → Source → GitHub Actions**.
 
 ## 15. Recursos de consulta
 

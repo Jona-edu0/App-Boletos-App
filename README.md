@@ -1,16 +1,23 @@
-# React + Vite
+# Ticket Star
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Aplicación web de venta de boletos para funciones de circo, desarrollada con React y Vite.
 
-Currently, two official plugins are available:
+## Aplicación
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+La app está publicada en GitHub Pages:
 
-## React Compiler
+**https://jona-edu0.github.io/App-Boletos-App/**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Desarrollo local
 
-## Expanding the Oxlint configuration
+```bash
+cd boletos-app
+npm ci
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Publicación
+
+El workflow de GitHub Actions compila y publica `boletos-app/` en GitHub Pages al hacer push a `main`. En la configuración del repositorio, selecciona **Settings → Pages → Build and deployment → Source → GitHub Actions**.
+
+Más información sobre el proyecto, sus funcionalidades y tecnologías en [boletos-app/README.md](./boletos-app/README.md).
